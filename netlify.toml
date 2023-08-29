@@ -1,4 +1,4 @@
 [[redirects]]
-from = "/*'
+from = "/*"
 to = "/new.html"
 status = 200
