@@ -914,12 +914,18 @@ nav{
 }
 @media (max-width:390px){
   body{
-    overflow: hidden;
+    width: 100%;
+    overflow-x: hidden;
   }
   .mac-book-air1-text06{
    font-size: .8em;
    
 
+  }
+  .container{
+    margin-top: ;
+    overflow-x: hidden;
+    z-index: 15;
   }
   .mac-book-air1-text08{
     font-size: 1.9rem;
@@ -941,6 +947,9 @@ nav{
   }
   form{
     font-size:.8em;
+  }
+  .scroll-tracker{
+    max-width: 375px;
   }
 }
 
