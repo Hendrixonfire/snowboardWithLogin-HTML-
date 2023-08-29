@@ -912,22 +912,25 @@ nav{
   font-size: 3.35rem;
  }
 }
-/*
+
 @media (max-width:390px){
   body{
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
   }
+  
   .mac-book-air1-text06{
    font-size: .8em;
    
 
   }
+  /*
   .container{
 
     overflow-x: hidden;
    
   }
+  */
   .mac-book-air1-text08{
     font-size: 1.9rem;
   }
@@ -965,7 +968,7 @@ nav{
     margin-top: 50px;
   }
 }
-*/
+
 .backvideo {
   margin-top: 10%;
   width: 100vw;
