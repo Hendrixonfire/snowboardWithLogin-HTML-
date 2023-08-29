@@ -917,10 +917,7 @@ nav{
 }
 
 @media (max-width:390px){
-  body{
-    width: 100%;
-    overflow: hidden;
-  }
+ 
   
   .mac-book-air1-text06{
    font-size: .8em;
@@ -932,6 +929,15 @@ nav{
 
     overflow-x: hidden;
    
+  }
+  .loginFormDiv{
+    z-index: 99;
+    width: 300px;
+    background-position: -220px ;
+  
+  }
+  .loginFormDiv .formBox{
+    width: 100%;
   }
     /*
   .mac-book-air1-text08{
