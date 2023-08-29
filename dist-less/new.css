@@ -250,6 +250,7 @@
   padding-right: calc(var(--_panel-padding) * 4);
   border-radius: calc(((var(--_panel-padding) * 2) + var(--_button-size)) / 2);
 }
+/*
 @media (prefers-reduced-motion: no-preference) {
   .accordion-panel {
     transition: flex-basis 500ms, flex-grow 500ms;
@@ -261,6 +262,7 @@
     transition: transform 500ms 500ms, opacity 500ms 500ms;
   }
 }
+*/
 .accordion-panel:nth-child(1) {
   --_panel-color: hsla(56, 82%, 43%, 0.25);
   
