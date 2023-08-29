@@ -912,6 +912,7 @@ nav{
   font-size: 3.35rem;
  }
 }
+/*
 @media (max-width:390px){
   body{
     width: 100%;
@@ -964,7 +965,7 @@ nav{
     margin-top: 50px;
   }
 }
-
+*/
 .backvideo {
   margin-top: 10%;
   width: 100vw;
