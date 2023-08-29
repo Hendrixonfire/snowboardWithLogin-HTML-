@@ -912,6 +912,37 @@ nav{
   font-size: 3.35rem;
  }
 }
+@media (max-width:390px){
+  body{
+    overflow: hidden;
+  }
+  .mac-book-air1-text06{
+   font-size: .8em;
+   
+
+  }
+  .mac-book-air1-text08{
+    font-size: 1.9rem;
+  }
+  .feature-grid-text .fs-700 {
+    font-size: 2.4rem ;
+  }
+  .buttonLogin{
+    z-index: 100;
+  }
+  .loginFormDiv{
+    z-index: 99;
+    width: 300px;
+    background-position: -220px ;
+  
+  }
+  .loginFormDiv .formBox{
+    width: 100%;
+  }
+  form{
+    font-size:.8em;
+  }
+}
 
 .backvideo {
   margin-top: 10%;
