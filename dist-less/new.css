@@ -401,9 +401,12 @@ input {
   transform: translateY(0);
   opacity: 1;
 }
+
 .accordion-panel:has([aria-expanded="true"]) .accordion-image {
+  -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
 }
+
 .accordion-title {
   font-size: 1.5rem;
   font-weight: 600;
@@ -956,6 +959,24 @@ nav{
   }
   form{
     font-size:.8em;
+  }
+  .accordion-panel:nth-child(3) .session-check-button{
+    font-size: .8em;
+    width: 75px;
+    height: 45px;
+  }
+  .accordion-panel:nth-child(2) .session-check-button{
+    font-size: .8em;
+    width: 75px;
+    height: 45px;
+  }
+  .accordion-panel:nth-child(1) .session-check-button{
+    font-size: .8em;
+    width: 75px;
+    height: 45px;
+  }
+  input{
+    font-size: .8em;
   }
   
     /*
