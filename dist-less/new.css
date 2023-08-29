@@ -949,6 +949,9 @@ nav{
   .scroll-tracker{
     max-width: 375px;
   }
+  .feature-grid{
+    z-index: -1;
+  }
 }
 
 .backvideo {
