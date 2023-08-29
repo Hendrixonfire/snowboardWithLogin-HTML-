@@ -950,7 +950,7 @@ nav{
     max-width: 375px;
   }
   .feature-grid-text{
-    z-index: -5;
+    z-index: 55;
   }
   .feature-grid{
     z-index: -10;
