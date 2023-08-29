@@ -353,11 +353,19 @@ input {
 }
 .accordion-content > p {
   transform: translateY(2rem);
+  -ms-transform: translateY(2rem);
+  -webkit-transform: translateY(2rem);
+  -moz-transform: translateY(2rem);
+  -o-transform: translateY(2rem);
   opacity: 0;
   margin-left: calc(var(--_button-size) + var(--_panel-gap) + var(--_icon-margin));
 }
 .accordion-content .user-name-input {
   transform: translateY(2rem);
+  -ms-transform: translateY(2rem);
+  -webkit-transform: translateY(2rem);
+  -moz-transform: translateY(2rem);
+  -o-transform: translateY(2rem);
   opacity: 0;
 }
 .accordion-image {
@@ -397,10 +405,18 @@ input {
 }
 .accordion-panel:has([aria-expanded="true"]) p {
   transform: translateY(0);
+  -ms-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -o-transform: translateY(0);
   opacity: 1;
 }
 .accordion-panel:has([aria-expanded="true"]) .user-name-input {
   transform: translateY(0);
+  -ms-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -o-transform: translateY(0);
   opacity: 1;
 }
 
