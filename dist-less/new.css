@@ -942,9 +942,11 @@ nav{
   .mac-book-air1-text08{
     font-size: 2rem;
   }
- 
-  .text-primary{
-    font-size: 2.6rem ;
+  .mac-book-air1-text06{
+    max-width: 20ch;
+  }
+  .text-primary.fs-700{
+    font-size: 2.1rem ;
   }
     /*
   .mac-book-air1-text08{
