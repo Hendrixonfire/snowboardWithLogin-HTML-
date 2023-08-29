@@ -52,7 +52,7 @@ window.addEventListener('scroll', function(){
     snowboarder.style.bottom = -(value)*0.4 + 'px';
 });
 
-const accordion =  document.querySelector(".accordion");
+const accordion =  document.querySelector(".accordion-image");
 accordion.addEventListener('click',  (e) => {
 const activePanel = e.target.closest(".accordion-panel");
 
