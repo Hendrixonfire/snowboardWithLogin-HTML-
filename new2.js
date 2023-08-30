@@ -92,7 +92,7 @@ function toggleAccordion(panelToActivate) {
 }
 
 //creating the user session objects
-/*
+
 const myUserListObjJumping = {
     "session":"",
     "date":"",
@@ -128,7 +128,7 @@ class User {
    
    }
 
-/*
+
     addSession() {
       const sessionToRemove = usersObj.findIndex((session) => session === this);
       sessionToRemove === -1  ? usersObj.push(this) : usersObj.splice(sessionToRemove, 1);
@@ -137,13 +137,13 @@ class User {
 
       
     }
-     */
-    /*
+     
+    
 }
 
-*/
 
-/*
+
+
 function getUserName(inputValue, sessionObj)
 
 {
@@ -183,9 +183,9 @@ function getUserName(inputValue, sessionObj)
             
 }
 
-*/
+
  //open-close the grid div.(contains sessionDate and sessionType and joinButton)
- /*
+ 
  function showGrid(currentSession, inputValue)
  {
    const inputElement = document.querySelector(inputValue);
@@ -199,10 +199,10 @@ function getUserName(inputValue, sessionObj)
    }
    element.style.display = (isClicked == true ) ? "grid" : "none";
  }  
-*/
+
 
 //listening the session buttons
-/*
+
 document.getElementById('session-check-button-jumping')
  .addEventListener('click', () => {
   
@@ -217,8 +217,8 @@ document.getElementById('session-check-button-jumping')
  .addEventListener('click', () => {  
     getUserName('.user-name-buttering','session-time-join-buttering', myUserListObjButtering);
  })
-*/
-/*
+
+
 document.getElementById('session-check-button-jumping')
  .addEventListener('click', () => {
   
@@ -292,11 +292,11 @@ document.getElementById('session-join-button-jumping-one')
  }
 
 
-*/
+
 
  
 //adding the user name in to the session object(on 1 of 3 accordion types.(sessions))
-/*
+
 function getUserName(inputValue, currentSession, sessionObj)
 
 {
@@ -342,7 +342,7 @@ function getUserName(inputValue, currentSession, sessionObj)
               console.table(sessionObj);
               console.table(sessionObj.name);
 }
-*/
+
 
 
 
