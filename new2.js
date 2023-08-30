@@ -296,7 +296,7 @@ document.getElementById('session-join-button-jumping-one')
 
  
 //adding the user name in to the session object(on 1 of 3 accordion types.(sessions))
-
+/*
 function getUserName(inputValue, currentSession, sessionObj)
 
 {
@@ -344,8 +344,7 @@ function getUserName(inputValue, currentSession, sessionObj)
 }
 
 
-
-
+*/
 document.querySelectorAll('.media-element img').forEach(img  =>  {
     img.addEventListener("click", function(){
    
